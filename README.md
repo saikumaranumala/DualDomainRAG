@@ -1,4 +1,4 @@
-# 🧠 DualDomainRAG — Healthcare & Fintech LLM Platform
+# DualDomainRAG — Healthcare & Fintech LLM Platform
 
 > An end-to-end Retrieval-Augmented Generation (RAG) platform that intelligently routes queries between **clinical healthcare** and **financial services** domains, powered by GPT-4o, DeBERTa, and ChromaDB — with full MLOps observability.
 
@@ -11,7 +11,7 @@
 
 ---
 
-## 🏗 Architecture Overview
+## Architecture Overview
 
 ```
 User Query (FastAPI)
@@ -47,7 +47,7 @@ MLflow/Evidently  Streamlit Dashboard
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 | Feature | Description |
 |---|---|
@@ -62,7 +62,7 @@ MLflow/Evidently  Streamlit Dashboard
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 dual-domain-rag/
@@ -111,7 +111,7 @@ dual-domain-rag/
 
 ---
 
-## 🚀 Quickstart
+##  Quickstart
 
 ### 1. Clone & install
 
@@ -161,7 +161,7 @@ docker-compose up --build
 
 ---
 
-## 📡 API Usage
+##  API Usage
 
 ```python
 import httpx
@@ -191,7 +191,7 @@ response = httpx.post("http://localhost:8000/query", json={
 
 ---
 
-## 📊 Evaluation Metrics
+## Evaluation Metrics
 
 | Metric | Healthcare | Fintech |
 |---|---|---|
@@ -205,7 +205,7 @@ response = httpx.post("http://localhost:8000/query", json={
 
 ---
 
-## 🔬 MLOps & Observability
+##  MLOps & Observability
 
 - **MLflow**: All retrieval experiments tracked with parameters, metrics, and artifacts
 - **Evidently AI**: Weekly data drift reports comparing query distributions
@@ -214,7 +214,7 @@ response = httpx.post("http://localhost:8000/query", json={
 
 ---
 
-## 🧪 Running Tests
+##  Running Tests
 
 ```bash
 pytest tests/ -v --cov=src --cov-report=html
@@ -222,7 +222,7 @@ pytest tests/ -v --cov=src --cov-report=html
 
 ---
 
-## 📄 License
+##  License
 
 MIT License — see [LICENSE](LICENSE)
 
